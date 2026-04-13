@@ -1,0 +1,13 @@
+Current Architecture:
+WebCam -> TensorFlow SSD MobileNet -> Bounding box + Label -> Speech synthesis
+
+Problems:
+
+- Object detection is an overkill for hand gestures
+- Static signs only being detected
+- No concept of Temporal context
+- No ML backend
+- Training is a tedious process
+- system processes individual frames independently.
+But sign language is continuous motion.
+- everything is run inside React + TensorFlowJS.
