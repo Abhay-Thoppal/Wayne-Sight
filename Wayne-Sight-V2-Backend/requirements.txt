@@ -2,6 +2,6 @@ fastapi
 uvicorn
 torch
 numpy
-mediapipe
+mediapipe==0.10.9
 opencv-python
 pydantic

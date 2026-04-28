@@ -15,6 +15,7 @@ for idx, label in enumerate(labels):
         data = np.load(os.path.join(folder, file))
         X.append(data)
         y.append(idx)
+    print(X)
 
 # X = np.array(X)
 # y = np.array(y)
