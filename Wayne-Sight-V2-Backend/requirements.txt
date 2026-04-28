@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+torch
+numpy
+mediapipe==0.10.9
+opencv-python
+pydantic

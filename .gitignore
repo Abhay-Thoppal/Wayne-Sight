@@ -1,0 +1,25 @@
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# =========================
+# Node / React (future)
+# =========================
+node_modules/
+dist/
+build/
+
+# =========================
+# Environment variables
+# =========================
+.env
+
+# =========================
+# Misc
+# =========================
+*.sqlite3
+*.db
+.venv/
+__pycache__/
+dataset/
